@@ -10,20 +10,18 @@ const NavLink = ({ title, link }) => (
     </div>
 )
 
-const Nav = () => {
-
-    return (
-        <>
-            <NavStyle>
-                <Text bold size='2.2rem'>justin zhang 🚀</Text>
-                <div style={{ display: 'flex' }}>
-                    <NavLink link='/' title='home' />
-                    <NavLink link='/about' title='about' />
-                    <NavLink link='/projects' title='projects' />
-                </div>
-            </NavStyle>
-        </>
-    )
-}
+const Nav = () => 
+(
+    <>
+        <NavStyle>
+            <Text bold size='2.2rem'>justin zhang 🚀</Text>
+            <div style={{ display: 'flex' }}>
+                <NavLink link='/' title='home' />
+                <NavLink link='/about' title='about' />
+                <NavLink link='/projects' title='projects' />
+            </div>
+        </NavStyle>
+    </>
+)
 
 export default Nav
