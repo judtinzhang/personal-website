@@ -1,6 +1,19 @@
 import React from 'react'
  
+import Nav from './components/Nav'
+import Home from './components/Home'
+
 const App = () => (
-  <h1>Your react app!</h1>
+    <>
+        <Nav />
+        <Home />
+        <h1>Your react app!</h1>
+        <h1>Your react app!</h1>
+        <h1>Your react app!</h1>
+        <h1>Your react app!</h1>
+        <h1>Your react app!</h1>
+        
+    </>
+  
 )
 export default App
