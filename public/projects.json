@@ -9,10 +9,74 @@
     },
     {
         "id": 2,
-        "title": "asdfdsa5-Card Poker",
-        "tech": "Java, Swing, JUnit",
-        "image": "https://i.imgur.com/KKlQOKX.png",
-        "description": "Play online Poker versus 3 bots! GUI provides full functionality of a normal game of Poker (Betting, Matching, Discard/Replace, Hand Ranking)",
-        "link": "https://github.com/judtinzhang/modified-pokesssssr"
+        "title": "Docu Appproximater",
+        "tech": "Java, jsoup",
+        "image": "https://i.imgur.com/Vxw86po.png",
+        "description": "A novel NLP algorithm that approximates document age based on natural language processing concepts. Leverages Google Ngram Viewer by parsing for word usage data.",
+        "link": "https://github.com/judtinzhang/google-ngram-project"
+    },
+    {
+        "id": 3,
+        "title": "Voder - 2020 IvyHacks",
+        "tech": "Vue, JavaScript, SCSS, Figma",
+        "image": "https://i.imgur.com/7diYmjh.png",
+        "description": "Organizes and presents government API data with user-driven designs. Collects and provides factual info regarding 2020 presidential candidates.",
+        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+    },
+    {
+        "id": 4,
+        "title": "Class Forum App",
+        "tech": "React, JavaScript, HTML, CSS",
+        "image": "https://i.imgur.com/ZnAhgTQ.png",
+        "description": "",
+        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+    },
+    {
+        "id": 5,
+        "title": "Posting Posts App",
+        "tech": "Redux, React, JavaScript",
+        "image": "https://i.imgur.com/3eXTu7g.png",
+        "description": "",
+        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+    },
+    {
+        "id": 6,
+        "title": "Find-A-Friend",
+        "tech": "Next.js, Express.js, MongoDB",
+        "image": "https://i.imgur.com/EI8d6v1.png",
+        "description": "",
+        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+    },
+    {
+        "id": 7,
+        "title": "Campuswire-Lite",
+        "tech": "React, Express.js, MongoDB",
+        "image": "https://i.imgur.com/ZcHI03X.png",
+        "description": "",
+        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+    },
+    {
+        "id": 8,
+        "title": "Altrui Rx",
+        "tech": "Python, Django, React, AWS",
+        "image": "https://i.imgur.com/SW4HGZG.png",
+        "description": "",
+        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+    },
+    {
+        "id": 9,
+        "title": "Altrui Foundation",
+        "tech": "React, Postman, Figma, AWS",
+        "image": "https://i.imgur.com/XXxPks1.png",
+        "description": "",
+        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+    },
+    {
+        "id": 10,
+        "title": "Penn Mobile",
+        "tech": "Python, Django, Flask, AWS",
+        "image": "https://i.imgur.com/ICQO7F6.png",
+        "description": "",
+        "link": "https://www.altruifoundation.org/"
     }
 ]
