@@ -2,6 +2,8 @@ import React from 'react'
  
 import JustinArt from '../public/justin_art.svg';
 import Nav from './components/Nav'
+import Footer from './components/Footer'
+
 import { 
     Text, 
     HeaderSpace, 
@@ -78,6 +80,7 @@ const App = () => {
                 </div>
                 <img src={JustinArt} alt="Justin Zhang" width="46%" height="auto" style={{display: 'block', margin: 'auto'}} />
             </Row>
+            <Footer />
         </>
     )
 }

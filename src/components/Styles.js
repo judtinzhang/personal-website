@@ -14,6 +14,15 @@ export const NavStyle = s.nav`
   z-index: 100;
 `
 
+export const NavCover = s.div`
+  color: #4a4a4a;
+  text-decoration: none!important;
+  &:hover {
+    text-decoration: none!important;
+    color: #e54f6d;
+  }
+`
+
 export const Text = s.p`
   font-size: ${({ size }) => size || '1rem'};
   font-weight: ${({ bold }) => (bold ? '500' : '350')};
@@ -33,15 +42,6 @@ export const InLineText = s.p`
 `
 
 export const Anchor = s.a`
-  color: #4a4a4a;
-  text-decoration: none!important;
-  &:hover {
-    text-decoration: none!important;
-    color: #e54f6d;
-  }
-`
-
-export const NavCover = s.div`
   color: #4a4a4a;
   text-decoration: none!important;
   &:hover {
@@ -105,4 +105,11 @@ export const Row = s.div`
 export const ConnectTabs = s.div`
   display: flex;
   align-items: center;
+`
+
+export const Foot = s.footer`
+align-items: baseline;
+display: flex;
+justify-content: space-between;
+margin-top: 0.9rem;
 `

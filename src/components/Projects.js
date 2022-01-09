@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import ProjectJSON from '../../public/projects.json'
 
 import Nav from './Nav'
+import Footer from './Footer'
 import { HeaderSpace, Text, ProjCardWrapper, ProjAnchor } from './Styles'
 
 const Projects = () => {
@@ -40,7 +41,8 @@ const Projects = () => {
                 {projectList.map(project => (
                     <ProjCard key={project.id} link={project.link} title={project.title} image={project.image} tech={project.tech} description={project.description} />
                 ))}
-            </div>            
+            </div>
+            <Footer />    
         </>
     )
 }
