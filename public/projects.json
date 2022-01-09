@@ -1,11 +1,11 @@
 [
     {
-        "id": 1,
-        "title": "5-Card Poker",
-        "tech": "Java, Swing, JUnit",
-        "image": "https://i.imgur.com/KKlQOKX.png",
-        "description": "Play Poker versus 3 bots! GUI provides full functionality of a normal game of Poker (Betting, Matching, Discard/Replace, Hand Ranking). Player Chips are automatically recorded in BetHistory.txt after every round.",
-        "link": "https://github.com/judtinzhang/modified-poker"
+        "id": 5,
+        "title": "Posting Posts App",
+        "tech": "Redux, React, JavaScript",
+        "image": "https://i.imgur.com/3eXTu7g.png",
+        "description": "Serves as a website for users to post immediate reactions to their every-day experiences. Also allows users to post status messages as well as profile images.",
+        "link": "https://github.com/judtinzhang/react-redux-app"
     },
     {
         "id": 2,
@@ -16,6 +16,14 @@
         "link": "https://github.com/judtinzhang/google-ngram-project"
     },
     {
+        "id": 4,
+        "title": "Class Forum App",
+        "tech": "React, JavaScript, HTML, CSS",
+        "image": "https://i.imgur.com/ZnAhgTQ.png",
+        "description": "A forum that serves as a Reddit-like application. Users are able to post, upvote/downvote, and reply to posts, enabling online conversation and discourse.",
+        "link": "https://github.com/judtinzhang/react-comment-app"
+    },
+    {
         "id": 3,
         "title": "Voder - 2020 IvyHacks",
         "tech": "Vue, JavaScript, SCSS, Figma",
@@ -24,59 +32,51 @@
         "link": "https://github.com/judtinzhang/2020-ivy-hacks"
     },
     {
-        "id": 4,
-        "title": "Class Forum App",
-        "tech": "React, JavaScript, HTML, CSS",
-        "image": "https://i.imgur.com/ZnAhgTQ.png",
-        "description": "",
-        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
-    },
-    {
-        "id": 5,
-        "title": "Posting Posts App",
-        "tech": "Redux, React, JavaScript",
-        "image": "https://i.imgur.com/3eXTu7g.png",
-        "description": "",
-        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+        "id": 1,
+        "title": "5-Card Poker",
+        "tech": "Java, Swing, JUnit",
+        "image": "https://i.imgur.com/KKlQOKX.png",
+        "description": "Play Poker versus 3 bots! GUI provides full functionality of a normal game of Poker (Betting, Matching, Discard/Replace, Hand Ranking). Player Chips are automatically recorded in BetHistory.txt after every round.",
+        "link": "https://github.com/judtinzhang/modified-poker"
     },
     {
         "id": 6,
         "title": "Find-A-Friend",
         "tech": "Next.js, Express.js, MongoDB",
         "image": "https://i.imgur.com/EI8d6v1.png",
-        "description": "",
-        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+        "description": "An online application for user-matching. The service is made for students who feel lonely or are ucomfortable with their current situation. Matching is based on user discretion.",
+        "link": "https://github.com/judtinzhang/find-a-friend"
     },
     {
         "id": 7,
-        "title": "Campuswire-Lite",
+        "title": "Campuswire Lite",
         "tech": "React, Express.js, MongoDB",
         "image": "https://i.imgur.com/ZcHI03X.png",
-        "description": "",
-        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+        "description": "The core functionality of Campuswire. This is a medium for students and professors to communicate with each other by posting and answering questions as well as receiving real-time updates.",
+        "link": "https://github.com/judtinzhang/campus-wire-project"
     },
     {
-        "id": 8,
-        "title": "Altrui Rx",
-        "tech": "Python, Django, React, AWS",
-        "image": "https://i.imgur.com/SW4HGZG.png",
-        "description": "",
-        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+        "id": 10,
+        "title": "Altrui Foundation",
+        "tech": "React, Figma, AWS, Postman",
+        "image": "https://i.imgur.com/XXxPks1.png",
+        "description": "Acts as Altrui Foundation's prime form of media: providing News, Updates, Partnership, and Account features to empower the non-profit's chartiable endeavors.",
+        "link": "https://www.altruifoundation.org/"
     },
     {
         "id": 9,
-        "title": "Altrui Foundation",
-        "tech": "React, Postman, Figma, AWS",
-        "image": "https://i.imgur.com/XXxPks1.png",
-        "description": "",
-        "link": "https://github.com/judtinzhang/2020-ivy-hacks"
+        "title": "Altrui Rx",
+        "tech": "Python, Django, React, AWS",
+        "image": "https://i.imgur.com/SW4HGZG.png",
+        "description": "A full-stack, automated medicine donation platform for pharmaceutical manufacturers and NGOs. Facilitated the transfer of $42 million worth of medication to disadvantaged communities.",
+        "link": "https://www.altruifoundation.org/rx"
     },
     {
         "id": 10,
         "title": "Penn Mobile",
-        "tech": "Python, Django, Flask, AWS",
+        "tech": "Django, Flask, Python, AWS",
         "image": "https://i.imgur.com/ICQO7F6.png",
-        "description": "",
-        "link": "https://www.altruifoundation.org/"
+        "description": "The University of Pennsylvania's mobile application for students. Serves 8000+ users and provides students with on-the-go access to university dining, laundry, and study room bookings.",
+        "link": "https://github.com/pennlabs/penn-mobile"
     }
 ]

@@ -87,7 +87,7 @@ export const ProjCardWrapper = s.div`
   padding: 1.5rem 2rem;
   background-color: white;
   width: ${({ mw }) => mw || '50rem'};
-  height: 30rem;
+  height: 27rem;
   margin: 30px;
   &:hover {
     box-shadow: 0 0 8px 7px #d9d9d9;
