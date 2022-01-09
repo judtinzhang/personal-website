@@ -3,7 +3,7 @@ import ProjectJSON from '../../public/projects.json'
 
 import Nav from './Nav'
 import Footer from './Footer'
-import { HeaderSpace, Text, ProjCardWrapper, ProjAnchor } from './Styles'
+import { HeaderSpace, Text, ProjCardWrapper, ProjAnchor, Main } from './Styles'
 
 const Projects = () => {
 
@@ -36,13 +36,15 @@ const Projects = () => {
         <>
             <Nav />
             <HeaderSpace />
-            <Text bold size='3rem' style={{ textAlign: 'center'}}>projects 👨🏻‍💻</Text>
-            <div style={{ textAlign: 'center'}}>
-                {projectList.map(project => (
-                    <ProjCard key={project.id} link={project.link} title={project.title} image={project.image} tech={project.tech} description={project.description} />
-                ))}
-            </div>
-            <Footer />    
+            <Main>
+                <Text bold size='3rem' style={{ textAlign: 'center'}}>projects 👨🏻‍💻</Text>
+                <div style={{ textAlign: 'center'}}>
+                    {projectList.map(project => (
+                        <ProjCard key={project.id} link={project.link} title={project.title} image={project.image} tech={project.tech} description={project.description} />
+                    ))}
+                </div>
+            </Main>  
+            <Footer />  
         </>
     )
 }

@@ -1,10 +1,17 @@
 import s from 'styled-components'
 
+const NAV_HEIGHT = '85px'
+const HEADER_HEIGHT = '120px'
+
+export const Main = s.div`
+  min-height: calc(100vh - ${NAV_HEIGHT} - ${HEADER_HEIGHT});
+`
+
 export const NavStyle = s.nav`
   padding: 1rem 1.5rem 0rem 1.5rem;
   display: flex;
   width: 100%;
-  max-height: 6rem;
+  max-height: ${NAV_HEIGHT};
   position: fixed;
   top: 0;
   left: 0;
@@ -69,7 +76,7 @@ export const HyperLink = s.a`
 `
 
 export const HeaderSpace = s.div`
-  height: 6rem;
+  height: ${HEADER_HEIGHT};
 `
 
 export const Card = s.div`
@@ -97,7 +104,6 @@ export const ProjCardWrapper = s.div`
 
 export const Row = s.div`
   display: flex;
-  flex: 1 1 30%;
   align-items: center;
   justify-content: ${({ jc }) => jc || 'space-around'};
 `
@@ -108,8 +114,5 @@ export const ConnectTabs = s.div`
 `
 
 export const Foot = s.footer`
-align-items: baseline;
-display: flex;
-justify-content: space-between;
-margin-top: 0.9rem;
+  display: block;
 `

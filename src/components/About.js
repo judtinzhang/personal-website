@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Nav from './Nav'
 import Footer from './Footer'
-import { HeaderSpace } from './Styles'
+import { HeaderSpace, Main } from './Styles'
 
 
 
@@ -10,8 +10,10 @@ const About= () => {
         <>
             <Nav />
             <HeaderSpace />
-            
-            <h1>hello about!</h1>
+            <Main>
+                <h1></h1>
+                <div>yep</div>
+            </Main>
             <Footer />
         </>
     )
