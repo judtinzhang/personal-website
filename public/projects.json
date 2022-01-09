@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "5-Card Poker",
+        "tech": "Java, Swing, JUnit",
+        "image": "https://i.imgur.com/KKlQOKX.png",
+        "description": "Play Poker versus 3 bots! GUI provides full functionality of a normal game of Poker (Betting, Matching, Discard/Replace, Hand Ranking). Player Chips are automatically recorded in BetHistory.txt after every round.",
+        "link": "https://github.com/judtinzhang/modified-poker"
+    },
+    {
+        "id": 2,
+        "title": "asdfdsa5-Card Poker",
+        "tech": "Java, Swing, JUnit",
+        "image": "https://i.imgur.com/KKlQOKX.png",
+        "description": "Play online Poker versus 3 bots! GUI provides full functionality of a normal game of Poker (Betting, Matching, Discard/Replace, Hand Ranking)",
+        "link": "https://github.com/judtinzhang/modified-pokesssssr"
+    }
+]

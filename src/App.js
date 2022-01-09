@@ -18,7 +18,7 @@ const App = () => {
         <>
             <Anchor href={href} target="_blank">
                 <ConnectTabs>
-                    <i class={iClass} style={{ width: '2.6rem'}}/>
+                    <i className={iClass} style={{ width: '2.6rem'}}/>
                     <Text>{text}</Text>
                 </ConnectTabs>
             </Anchor>
@@ -76,7 +76,7 @@ const App = () => {
                         />
                     </Card>
                 </div>
-                <img src={JustinArt} alt="Justin Zhang" width="46%" height="auto" style={{zIndex: '99', display: 'block', margin: 'auto'}} />
+                <img src={JustinArt} alt="Justin Zhang" width="46%" height="auto" style={{display: 'block', margin: 'auto'}} />
             </Row>
         </>
     )

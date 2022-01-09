@@ -9,6 +9,7 @@ const About= () => {
         <>
             <Nav />
             <HeaderSpace />
+            
             <h1>hello about!</h1>
         </>
     )

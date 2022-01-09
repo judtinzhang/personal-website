@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { NavStyle, Text, Anchor } from './Styles'
+import { NavStyle, Text, NavCover } from './Styles'
 
 const NavLink = ({ title, link }) => (
     <div style={{ marginRight: '4rem' }}>
         <Link to={link}>
-            <Anchor><Text size='1.2rem'>{title}</Text></Anchor>
+            <NavCover>
+                <Text size='1.2rem'>{title}</Text>
+            </NavCover>
         </Link> 
     </div>
 )
