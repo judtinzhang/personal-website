@@ -33,7 +33,6 @@ const App = () => {
             <Nav />
             <HeaderSpace />
             <Main>
-                <h1></h1>
                 <Row>
                     <div>
                         <Card>

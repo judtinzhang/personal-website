@@ -18,18 +18,19 @@ const Projects = () => {
     }, [])
 
     const ProjCard = ({ title, tech, image, description, link }) => (
-        <ProjAnchor href={link} target='_blank'>
-            <ProjCardWrapper mw='270px' style={{ textAlign: 'left'}}>
-                <Text bold size='1.4rem' lh='0'>{title}</Text>
-                <Text>🛠 {tech}</Text>
-                <img src={image} alt={title} width="270px" height="150px" style={{display: 'block', margin: 'auto', flexBasis: '90%'}} />
-                <div style={{ display: 'flex', marginTop: '10px' }}>
-                    <Text>📔</Text>
-                    <Text lh='1.5'>{description}</Text>
-                </div>         
-            </ProjCardWrapper>
-         </ProjAnchor>
-       
+        <ProjCardWrapper mw='270px'>
+            <ProjAnchor href={link} target='_blank'>
+                <div style={{ padding: '1.5rem'}}>
+                    <Text bold size='1.4rem' lh='0'>{title}</Text>
+                    <Text>🛠 {tech}</Text>
+                    <img src={image} alt={title} width="270px" height="150px" style={{display: 'block', margin: 'auto', flexBasis: '90%'}} />
+                    <div style={{ display: 'flex', marginTop: '10px' }}>
+                        <Text>📔</Text>
+                        <Text lh='1.5'>{description}</Text>
+                    </div> 
+                </div>
+            </ProjAnchor>     
+        </ProjCardWrapper>
     )
 
     return (

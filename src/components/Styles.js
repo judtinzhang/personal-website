@@ -1,17 +1,18 @@
 import s from 'styled-components'
 
-const NAV_HEIGHT = '85px'
+const NAV_HEIGHT = '90px'
 const HEADER_HEIGHT = '120px'
+const FOOTER_HEIGHT = '20px'
 
 export const Main = s.div`
-  min-height: calc(100vh - ${NAV_HEIGHT} - ${HEADER_HEIGHT});
+  min-height: calc(100vh - ${NAV_HEIGHT} - ${FOOTER_HEIGHT} - 70px);
 `
 
 export const NavStyle = s.nav`
   padding: 1rem 1.5rem 0rem 1.5rem;
   display: flex;
   width: 100%;
-  max-height: ${NAV_HEIGHT};
+  height: ${NAV_HEIGHT};
   position: fixed;
   top: 0;
   left: 0;
@@ -59,6 +60,12 @@ export const Anchor = s.a`
 
 export const ProjAnchor = s.a`
   color: #4a4a4a;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: left;
   display: inline-block;
   text-decoration: none!important;
   &:hover {
@@ -89,6 +96,8 @@ export const Card = s.div`
 `
 
 export const ProjCardWrapper = s.div`
+  position: relative;  
+  display: inline-block;
   border-radius: 10px;
   box-shadow: 0 0 8px 2px #d9d9d9;
   padding: 1.5rem 2rem;
@@ -115,4 +124,5 @@ export const ConnectTabs = s.div`
 
 export const Foot = s.footer`
   display: block;
+  height: ${FOOTER_HEIGHT};
 `
