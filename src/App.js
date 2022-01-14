@@ -40,7 +40,7 @@ const App = () => {
                                 Hey there, I'm Justin 👋
                             </Text>
                             <Text>
-                                I am a current sophomore at the <HyperLink href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</HyperLink> studying Computer Science and Economics.
+                                I am a current sophomore at the <HyperLink href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</HyperLink> studying Computer Science.
                             </Text>
                             <Text>
                                 Recently, I have been dabbling in product development and have enjoyed every minute of it. 😃 

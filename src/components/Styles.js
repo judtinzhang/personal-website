@@ -95,6 +95,11 @@ export const Card = s.div`
   margin: 30px;
 `
 
+export const AboutDiv = s.div`
+  max-width: ${({ mw }) => mw || '30rem'};
+  margin: 30px;
+`
+
 export const ProjCardWrapper = s.div`
   position: relative;  
   display: inline-block;
