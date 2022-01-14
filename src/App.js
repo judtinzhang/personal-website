@@ -43,13 +43,13 @@ const App = () => {
                                 I am a current sophomore at the <HyperLink href="https://www.upenn.edu/" target="_blank">University of Pennsylvania</HyperLink> studying Computer Science.
                             </Text>
                             <Text>
-                                Recently, I have been dabbling in product development and have enjoyed every minute of it. 😃 
+                                Recently, I have been dabbling in product development and so far it has been an amazing experience. 😃 
                             </Text>
                             <Text>
                                 When I'm not working, you can find me for-fun coding, watching movies, or playing games with friends!
                             </Text>
                             <Text>
-                                Also, just to clarify, some people call me Judtin because of a fat-finger fiasco that happened my sophomore year of high school.
+                                Also, just to clarify, some people call me Judtin because of a fat-finger fiasco that happened during my sophomore year of high school.
                                 The nickname has stuck and seems to have no intention of stopping... 😅
                             </Text>
                         </Card>
