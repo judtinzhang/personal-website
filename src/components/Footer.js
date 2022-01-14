@@ -1,12 +1,12 @@
 import React from 'react'
-import { Row, Text, Foot } from './Styles'
+import { Row, Text, Foot, HyperLink } from './Styles'
 
 const Footer = () => (
     <>
         <Foot>
             <Row jc='center'>
                 <Text>
-                    built by justin zhang 🚀 © 2022
+                    built with <HyperLink href='https://reactjs.org/' target='_blank'>react</HyperLink> by justin zhang 🚀 © 2022
                 </Text>
             </Row>
         </Foot>
