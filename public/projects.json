@@ -56,6 +56,14 @@
         "link": "https://github.com/judtinzhang/campus-wire-project"
     },
     {
+        "id": 12,
+        "title": "Moodify",
+        "tech": "React, Express.js, SQL, AWS RDS",
+        "image": "https://i.imgur.com/HIvhf9J.png",
+        "description": "An application that modifies input text based on a collection of emotions, sentiments, languages, and meanings. Powered by NRC emotion lexicon and WordNet datasets.",
+        "link": "https://github.com/judtinzhang/moodify"
+    },
+    {
         "id": 10,
         "title": "Altrui Foundation",
         "tech": "React, Figma, AWS, Postman",
@@ -64,12 +72,28 @@
         "link": "https://www.altruifoundation.org/"
     },
     {
+        "id": 14,
+        "title": "Mini Minecraft",
+        "tech": "C++, OpenGL, QT Creator",
+        "image": "https://i.imgur.com/DQ5yp13.jpg",
+        "description": "Generated Minecraft Terrain with multithreading to create an interactive powered game. Applied math models to implement mesh voxelization, liquid distortion, and depth perception.",
+        "link": "https://www.youtube.com/watch?v=1iV2f7QCRxM&t=3s&ab_channel=JustinZhang"
+    },
+    {
         "id": 9,
         "title": "Altrui Rx",
         "tech": "Python, Django, React, AWS",
         "image": "https://i.imgur.com/SW4HGZG.png",
         "description": "A full-stack, automated medicine donation platform for pharmaceutical manufacturers and NGOs. Facilitated the transfer of $42 million worth of medication to disadvantaged communities.",
         "link": "https://www.altruifoundation.org/rx"
+    },
+    {
+        "id": 13,
+        "title": "MongoDB",
+        "tech": "C++, JavaScript, MongoDB",
+        "image": "https://i.imgur.com/PWSHMWg.png",
+        "description": "MongoDB is an open source NoSQL database management program and one of the most popular databases in the world. As part of MongoDB, I was working under the Query Execution team's Column Store Indexes project.",
+        "link": "https://github.com/mongodb/mongo"
     },
     {
         "id": 11,

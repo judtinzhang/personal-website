@@ -34474,7 +34474,7 @@ var App = function App() {
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement(_Nav.default, null), /*#__PURE__*/_react.default.createElement(_Styles.HeaderSpace, null), /*#__PURE__*/_react.default.createElement(_Styles.Main, null, /*#__PURE__*/_react.default.createElement(_Styles.Row, null, /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Styles.Card, null, /*#__PURE__*/_react.default.createElement(_Styles.Text, {
     bold: true,
     size: "3rem"
-  }, "Hey there, I'm Justin \uD83D\uDC4B"), /*#__PURE__*/_react.default.createElement(_Styles.Text, null, "I am a current sophomore at the ", /*#__PURE__*/_react.default.createElement(_Styles.HyperLink, {
+  }, "Hey there, I'm Justin \uD83D\uDC4B"), /*#__PURE__*/_react.default.createElement(_Styles.Text, null, "I am a current junior at the ", /*#__PURE__*/_react.default.createElement(_Styles.HyperLink, {
     href: "https://www.upenn.edu/",
     target: "_blank"
   }, "University of Pennsylvania"), " studying Computer Science."), /*#__PURE__*/_react.default.createElement(_Styles.Text, null, "Recently, I have been dabbling in product development and so far it has been an amazing experience. \uD83D\uDE03"), /*#__PURE__*/_react.default.createElement(_Styles.Text, null, "When I'm not working, you can find me for-fun coding, watching movies, or playing games with friends!"), /*#__PURE__*/_react.default.createElement(_Styles.Text, null, "Also, just to clarify, some people call me Judtin because of a fat-finger fiasco that happened during my sophomore year of high school. The nickname has stuck and seems to have no intention of stopping... \uD83D\uDE05")), /*#__PURE__*/_react.default.createElement(_Styles.Card, null, /*#__PURE__*/_react.default.createElement(_Styles.Text, {
@@ -34554,7 +34554,7 @@ var About = function About() {
     size: "1.2rem"
   }, "I am from Holmdel, NJ, and am now in Philly for college."), /*#__PURE__*/_react.default.createElement(_Styles.Text, {
     size: "1.2rem"
-  }, "This summer, I will head off to New York City to join ", /*#__PURE__*/_react.default.createElement(_Styles.HyperLink, {
+  }, "Last summer, I went to New York City and joined ", /*#__PURE__*/_react.default.createElement(_Styles.HyperLink, {
     href: "https://www.mongodb.com/",
     target: "_blank"
   }, "MongoDB"), " as a 2022 Software Engineer Intern \uD83D\uDCBB!")), /*#__PURE__*/_react.default.createElement("div", {
@@ -34614,11 +34614,11 @@ var About = function About() {
     size: "1.2rem"
   }, "I thought it would be more legible if I just listed them \uD83D\uDE05. Each category is ordered by level of understanding (I am most experienced with the left-most item)."), /*#__PURE__*/_react.default.createElement(_Styles.Text, {
     size: "1.2rem"
-  }, /*#__PURE__*/_react.default.createElement("b", null, "Languages:"), " Python, Java, JavaScript, C, C++"), /*#__PURE__*/_react.default.createElement(_Styles.Text, {
+  }, /*#__PURE__*/_react.default.createElement("b", null, "Languages:"), " Python, C++, Java, JavaScript, C, SQL, OCaml"), /*#__PURE__*/_react.default.createElement(_Styles.Text, {
     size: "1.2rem"
   }, /*#__PURE__*/_react.default.createElement("b", null, "Frameworks:"), " Django, Flask, React, Express, Next, Numpy, Pandas, Redux"), /*#__PURE__*/_react.default.createElement(_Styles.Text, {
     size: "1.2rem"
-  }, /*#__PURE__*/_react.default.createElement("b", null, "Software Services:"), " AWS (EC2, S3, ECS, ECR, RDS), Git, Postman, MongoDB, Amazon MTurk, Figma, Docker")), /*#__PURE__*/_react.default.createElement("img", {
+  }, /*#__PURE__*/_react.default.createElement("b", null, "Software Services:"), " AWS (EC2, S3, ECS, ECR, RDS), Git, Postman, MongoDB, Docker, Kubernetes, Helm, Jira, Amazon MTurk, Figma")), /*#__PURE__*/_react.default.createElement("img", {
     src: _coding.default,
     alt: "Coding",
     width: "18%",
@@ -34718,6 +34718,13 @@ module.exports = [{
   "description": "The core functionality of Campuswire. This is a medium for students and professors to communicate with each other by posting and answering questions as well as receiving real-time updates.",
   "link": "https://github.com/judtinzhang/campus-wire-project"
 }, {
+  "id": 12,
+  "title": "Moodify",
+  "tech": "React, Express.js, SQL, AWS RDS",
+  "image": "https://i.imgur.com/HIvhf9J.png",
+  "description": "An application that modifies input text based on a collection of emotions, sentiments, languages, and meanings. Powered by NRC emotion lexicon and WordNet datasets.",
+  "link": "https://github.com/judtinzhang/moodify"
+}, {
   "id": 10,
   "title": "Altrui Foundation",
   "tech": "React, Figma, AWS, Postman",
@@ -34725,12 +34732,26 @@ module.exports = [{
   "description": "Acts as Altrui Foundation's prime form of media: providing News, Updates, Partnership, and Account features to empower the non-profit's chartiable endeavors.",
   "link": "https://www.altruifoundation.org/"
 }, {
+  "id": 14,
+  "title": "Mini Minecraft",
+  "tech": "C++, OpenGL, QT Creator",
+  "image": "https://i.imgur.com/DQ5yp13.jpg",
+  "description": "Generated Minecraft Terrain with multithreading to create an interactive powered game. Applied math models to implement mesh voxelization, liquid distortion, and depth perception.",
+  "link": "https://www.youtube.com/watch?v=1iV2f7QCRxM&t=3s&ab_channel=JustinZhang"
+}, {
   "id": 9,
   "title": "Altrui Rx",
   "tech": "Python, Django, React, AWS",
   "image": "https://i.imgur.com/SW4HGZG.png",
   "description": "A full-stack, automated medicine donation platform for pharmaceutical manufacturers and NGOs. Facilitated the transfer of $42 million worth of medication to disadvantaged communities.",
   "link": "https://www.altruifoundation.org/rx"
+}, {
+  "id": 13,
+  "title": "MongoDB",
+  "tech": "C++, JavaScript, MongoDB",
+  "image": "https://i.imgur.com/PWSHMWg.png",
+  "description": "MongoDB is an open source NoSQL database management program and one of the most popular databases in the world. As part of MongoDB, I was working under the Query Execution team's Column Store Indexes project.",
+  "link": "https://github.com/mongodb/mongo"
 }, {
   "id": 11,
   "title": "Penn Mobile",
@@ -34909,7 +34930,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60040" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52871" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
